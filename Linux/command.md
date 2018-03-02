@@ -10,3 +10,6 @@ Show available space of disks.
 
 ### sudo mokutil --enable-validation
 Install mokutil and use this command to turn UEFI secure booting on. Use `--disable-validation` to trun secure booting off.
+
+### sudo ntfsfix
+Fix mounting errors of ntfs format disk. Ex. `sudo ntfsfix /dev/sda5`
