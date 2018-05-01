@@ -22,3 +22,6 @@ Turn off the X server. And use `sudo init 5` to restart it.
 
 ### move show application up in ubuntu 17.04
 gsettings org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+
+### Cache info for git
+git config --global credential.helper cache
